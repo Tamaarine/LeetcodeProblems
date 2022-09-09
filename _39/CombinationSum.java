@@ -19,7 +19,7 @@ public class CombinationSum {
         List<List<Integer>> output = new ArrayList<>();
         
         // start is 0 because we are starting at index 0
-        backtrack(output, new ArrayList<>(), target, 0, candidates);
+        // backtrack(output, new ArrayList<>(), target, 0, candidates);
         
         // Just have to return the output after we are done with the recursion
         return output;
@@ -27,6 +27,6 @@ public class CombinationSum {
     }
     
     public static List<List<Integer>> backtrack(List<List<Integer>> output, int candidates[], int remain) {
-        
+        return null;
     }
 }
